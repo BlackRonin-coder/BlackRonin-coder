@@ -5,9 +5,9 @@ Bindu is a system-repair and optimization method created by **Leon Maurice Brown
 It is designed to diagnose structural failure, identify the true constraint, redesign the system around aligned incentives and correction loops, and keep the result honest through proof, boundaries, and governance.
 
 ## Current public frameworks
-- [BINDU MEDICAL — MDCE](https://github.com/leonbrowne/bindu-medical-mdce)
-- [STERLING–HOME Framework](https://github.com/leonbrowne/sterling-home-framework)
-- [BINDU ATM](https://github.com/leonbrowne/bindu-atm)
+- [BINDU MEDICAL — MDCE](https://github.com/BlackRonin-coder/bindu-medical-mdce)
+- [STERLING–HOME Framework](https://github.com/BlackRonin-coder/sterling-home-framework)
+- [BINDU ATM](https://github.com/BlackRonin-coder/bindu-atm)
 
 ## What Bindu does
 - maps the real system rather than the claimed one
