@@ -1,67 +1,65 @@
 # Leon Maurice Browne
 
-**Systems & AI Control Engineer | Safety-Critical Engineering | AI Assurance**  
+**Safety-Critical Systems & AI Control Engineer**
+**Agent Safety · Runtime Governance · Assurance Engineering · Systems Analysis**
 London, United Kingdom
 
-I combine more than 18 years of safety-critical railway signalling engineering with independent work on AI control, runtime governance, agent safety and verification.
+I combine **18+ years of safety-critical railway signalling engineering** with independent systems and software work focused on **controlling how capable AI systems act**, how their actions are evidenced, and how failures can be contained.
 
-My engineering focus is the boundary between capability and consequence: how to let systems perform useful work without allowing an unsupported claim, an invalid permission or an interrupted operation to become an unauthorised external effect.
+My central engineering question is simple: **what must independently be true before a system is permitted to produce a consequential effect?**
 
-## Areas of focus
+---
 
-- **Agentic AI control:** authority boundaries, tool-mediated execution and consequence containment
-- **Systems architecture:** explicit constraints, deterministic state transitions and implementation-independent requirements
-- **Assurance engineering:** adversarial and negative-path testing, conformance, evidence and regression checks
-- **Resilience:** provenance, crash recovery, reconciliation and fail-safe behaviour
-- **Independent engineering:** requirements decomposition, architecture, implementation review and verification
+## Featured public work
 
-**Technical working environment:** Python, Bash, Git, GitHub, JSON contracts, test harnesses and AI-assisted software development with human-led engineering decisions and verification.
+| Public work | What it demonstrates | Evidence status |
+| --- | --- | --- |
+| **[Consequence-Bounded AI Control (CBAC)](docs/CBAC_Public_Research_Note_2026.md)** | A falsifiable systems-control hypothesis about containing the consequences of unsafe agent behaviour | Research hypothesis; external validation pending |
+| **[Synthetic AI control demonstration](examples/cbac_synthetic_demo/README.md)** | Runnable Python example with testable allowlist, mock authority and completion checks | 19 locally passing synthetic unit tests; **not a production control** |
+| **[NEOM: How the Bindu Method Could Make NEOM Work](docs/NEOM_Bindu_Public_Case_Study_2026.md)** | Infrastructure economics, capital staging, investment gates and downside modelling | Independent illustrative analysis; not an official forecast |
+| **[Public evidence register](docs/PUBLIC_EVIDENCE_REGISTER.md)** | Clear separation of hypothesis, implementation, verification and unproven claims | Live public disclosure record |
 
-## Selected engineering and research work
+## Engineering specialisms
 
-**AI control and assurance architecture — private development**  
-Developing a control and assurance architecture for autonomous and tool-using AI systems. The work addresses separation of authority, evidence, dispatch, execution and completion; provenance; recovery; and adversarial testing. Internal engineering work is not represented here as an independently certified or commercially deployed product.
+- **AI control and agent safety:** authorisation boundaries, tool-mediated actions and consequence containment.
+- **Assurance and verification:** requirements, negative-path testing, provenance, reproducible evidence and regression discipline.
+- **Resilience and recovery:** uncertainty handling, fail-safe behaviour, replay and recovery considerations.
+- **Systems engineering:** constraint diagnosis, failure modes, dependency analysis and evidence-led design.
+- **Independent technical ownership:** architecture decisions, AI-assisted software development, testing, critical review and documented limitations.
 
-**Consequence-Bounded AI Control — research hypothesis**  
-Exploring whether unsafe or incorrect AI behaviour can be prevented from automatically acquiring the permission required to produce harmful external consequences. The hypothesis is intended to be tested through falsifiable, adversarial experiments rather than assumed true.
+**Working environment:** Python, Bash, Git/GitHub, structured JSON contracts, test harnesses and safety-critical engineering practice.
 
-**The Bindu Method — systems-design methodology**  
-A method I developed for diagnosing structural constraints, evaluating alternatives, aligning incentives, testing failure modes and verifying corrections. It informs my approach to systems engineering; it is not itself proof of an implemented result.
+## Current private engineering
 
-### NEOM — phased megaproject redesign (public systems case study)
+Through **Coal Tiger**, I am independently developing research and engineering work on AI governance and control for autonomous and tool-using systems.
 
-Applied the Bindu Method to a conceptual redesign of Saudi Arabia's NEOM megaproject, focusing on project-finance feasibility, investment sequencing, risk containment and measurable release gates.
+The underlying engineering repositories are intentionally private. **This profile does not imply that the work is commercially deployed, independently certified or safe for production use.** Only deliberately public and scope-limited artefacts are linked above.
 
-- Reframed the development sequence as **productive industrial infrastructure → contracted demand → operating cash flow → stress testing → capital approval → expansion**.
-- Modelled an initial **$46bn productive core** with **$24bn held as conditional investment**, rather than treating all proposed development as an unconditional commitment.
-- The illustrative base-case financial model calculated **14.7% sponsor IRR**, **+$9.6bn NPV at a 9% discount rate**, and **2.01× minimum debt-service coverage**.
-- Tested sensitivity to construction cost increases, weaker revenues, financing costs and delays to identify break conditions and stage-gate safeguards.
+## Applied systems thinking: NEOM
 
-This is an **independent scenario-based engineering and economic analysis**, not an official NEOM plan, an investment recommendation or independently verified project performance. It demonstrates transfer of systems thinking from safety-critical engineering into infrastructure finance and strategic programme design.
+My [NEOM Bindu revitalisation case study](docs/NEOM_Bindu_Public_Case_Study_2026.md) examines how a large interdependent infrastructure programme might be made more economically resilient through productive-asset-first sequencing.
 
-**Full public case study:** [NEOM Is Still Theoretically Possible — If It Is Built in the Right Order](docs/NEOM_Bindu_Public_Case_Study_2026.md)
+The illustrative model compares a **$46bn industrial core** with **$24bn retained as discretionary later development**, tests financial stress conditions and requires independent investment gates. Its claim is that **NEOM remains theoretically possible under revised sequencing and verified demand**, not that the full original vision is proven bankable.
 
-**Public discussion:** [NEOM sustainable development framework](https://www.linkedin.com/posts/leon-maurice-browne-6438a71b0_full-theoretically-workable-neom-solution-activity-7496997552995667968--yjV) · [Phased development and professional feedback](https://www.linkedin.com/posts/leon-maurice-browne-6438a71b0_the-bindu-redesign-reverses-that-sequence-activity-7496615227380236288-xMQS)
+The work prompted [public discussion on LinkedIn](https://www.linkedin.com/posts/leon-maurice-browne-6438a71b0_the-bindu-redesign-reverses-that-sequence-activity-7496615227380236288-xMQS), which is professional engagement rather than independent financial validation.
 
 ## Professional experience
 
-**London Underground / Transport for London | Signalling engineering | 2008–present**  
-IRSE-licensed signalling professional with extensive experience in a safety-critical operational environment. My background informs an engineering discipline centred on controlled authority, fault diagnosis, evidence, safe-state behaviour and the consequences of failure.
+**London Underground / Transport for London — Signalling engineering (2008–present)**
+IRSE-licensed signalling professional working in a safety-critical operational discipline involving technical diagnosis, controlled processes, safe-state reasoning and engineering evidence.
 
-**Mercedes-Benz | Technical service, parts and warranty operations | 2000–2007**
+**Mercedes-Benz — Technical service, parts and warranty operations (2000–2007)**
 
-## Engineering discipline
+## Engineering approach
 
-`Problem → Constraint → Design → Implementation → Adversarial test → Evidence → Regression`
+**Problem → Constraint → Architecture → Implementation → Adversarial test → Independent evidence → Regression**
 
-**Evidence before authority.** A system's claim that an operation succeeded is not, by itself, independent evidence that the operation was authorised or completed.
-
-## Public disclosure and project maturity
-
-Most active software and research repositories remain private to protect intellectual property and avoid presenting unfinished development as production-ready work. Public claims distinguish architectural design, implemented code, internal verification and external validation.
+The key principle is **evidence before authority**. A system should not be treated as correct simply because it declares success.
 
 ## Contact
 
 - [LinkedIn](https://uk.linkedin.com/in/leon-maurice-browne-6438a71b0)
 - [Email](mailto:leon.m.browne@coaltigerltd.com)
 - [Coal Tiger](https://www.coaltigerltd.com/)
+
+**© 2026 Leon Maurice Browne.** Public descriptions and illustrative code are shared for examination and discussion; no general open-source licence or grant of proprietary rights is implied.
