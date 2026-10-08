@@ -39,6 +39,8 @@ Applied the Bindu Method to a conceptual redesign of Saudi Arabia's NEOM megapro
 
 This is an **independent scenario-based engineering and economic analysis**, not an official NEOM plan, an investment recommendation or independently verified project performance. It demonstrates transfer of systems thinking from safety-critical engineering into infrastructure finance and strategic programme design.
 
+**Full public case study:** [NEOM Is Still Theoretically Possible — If It Is Built in the Right Order](docs/NEOM_Bindu_Public_Case_Study_2026.md)
+
 **Public discussion:** [NEOM sustainable development framework](https://www.linkedin.com/posts/leon-maurice-browne-6438a71b0_full-theoretically-workable-neom-solution-activity-7496997552995667968--yjV) · [Phased development and professional feedback](https://www.linkedin.com/posts/leon-maurice-browne-6438a71b0_the-bindu-redesign-reverses-that-sequence-activity-7496615227380236288-xMQS)
 
 ## Professional experience
