@@ -1,0 +1,40 @@
+name: Public synthetic demo CI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/public-synthetic-demo.yml"
+      - "examples/cbac_synthetic_demo/**"
+  pull_request:
+    paths:
+      - ".github/workflows/public-synthetic-demo.yml"
+      - "examples/cbac_synthetic_demo/**"
+  workflow_dispatch:
+
+# No write permissions, deployments, secrets or private repository access.
+permissions:
+  contents: read
+
+concurrency:
+  group: public-synthetic-demo-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  synthetic-tests:
+    name: Python synthetic control tests
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Check out public code without persisting credentials
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Confirm runner Python
+        run: |
+          python3 --version
+          python3 -c 'import sys; assert sys.version_info >= (3, 10)'
+      - name: Run isolated synthetic unit tests
+        run: python3 -B -m unittest discover -s examples/cbac_synthetic_demo -p 'test_*.py' -v
+      - name: Exercise synthetic demonstration
+        run: python3 -B examples/cbac_synthetic_demo/control_demo.py
