@@ -19,6 +19,18 @@ From the GitHub repository's root directory:
 
 Expected demonstration: one simulated accepted request, one blocked request, a rejected self-completion claim, a mock external receipt, and one synthetic in-memory effect.
 
+## Reproduce the bounded adversarial evaluation
+
+From the repository root, run:
+
+    python3 -B examples/cbac_synthetic_demo/public_evaluation.py
+
+The deterministic 512-case grid compares the mock controller with a separately written, **author-authored** test expectation. It reports zero in-grid mismatches, alongside **three intentionally reproduced weaknesses** involving caller-controlled mock identity, mock receipts and repeated actions under changed identifiers.
+
+**This is a transparent finite-scope demonstration—not independent validation, not an estimate of real-world attack resistance, and not verification of any protected system.**
+
+Read the full [public evaluation and threat model](../../docs/SYNTHETIC_CONTROL_EVALUATION_V1.md).
+
 ## What the tests cover
 
 Permitted mock work; denied actions and targets; subject and mock identity checks; stale and future epochs; malformed inputs; duplicate request identifiers; attempted privilege escalation; model-generated completion claims; mismatched or negative observations; mock receipt acceptance.
