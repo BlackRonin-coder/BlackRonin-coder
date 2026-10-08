@@ -11,6 +11,17 @@ This register prevents a public explanation, synthetic test or private engineeri
 | [CBAC public research note](CBAC_Public_Research_Note_2026.md) | Falsifiable research hypothesis | Scope, problem, proposed failure criteria and evaluation plan | Tested frontier-model containment |
 | [Synthetic control code](../examples/cbac_synthetic_demo/README.md) | Public in-memory teaching demonstration | Its limited, test-defined behaviour in a mock environment | Authentic identity, authenticated provenance, complete mediation, private-system conformance, production safety |
 
+
+## Reproducing the published synthetic tests
+
+The public, dependency-free Python unit tests can be run from the repository root:
+
+```bash
+python3 -B -m unittest discover -s examples/cbac_synthetic_demo -p 'test_*.py' -v
+```
+
+The [public synthetic demo workflow](../.github/workflows/public-synthetic-demo.yml) also runs these tests and the in-memory example on GitHub-hosted Linux after relevant public code changes and pull requests. It has **read-only repository permissions**, does not access private repositories and is not a production security evaluation. Review actual workflow run results in [GitHub Actions](https://github.com/BlackRonin-coder/BlackRonin-coder/actions) rather than assuming a passing status.
+
 ## Planned work not yet demonstrated by public artefacts
 
 - Model/agent testing under realistic adversarial conditions.

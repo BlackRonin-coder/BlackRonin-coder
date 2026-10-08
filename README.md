@@ -19,6 +19,8 @@ My central engineering question is simple: **what must independently be true bef
 | **[NEOM: How the Bindu Method Could Make NEOM Work](docs/NEOM_Bindu_Public_Case_Study_2026.md)** | Infrastructure economics, capital staging, investment gates and downside modelling | Independent illustrative analysis; not an official forecast |
 | **[Public evidence register](docs/PUBLIC_EVIDENCE_REGISTER.md)** | Clear separation of hypothesis, implementation, verification and unproven claims | Live public disclosure record |
 
+**Automated public example checks:** [GitHub Actions — synthetic control tests](.github/workflows/public-synthetic-demo.yml). Results are limited to the published mock example; see the [evidence register](docs/PUBLIC_EVIDENCE_REGISTER.md) for scope.
+
 ## Engineering specialisms
 
 - **AI control and agent safety:** authorisation boundaries, tool-mediated actions and consequence containment.
