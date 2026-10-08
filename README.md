@@ -15,7 +15,8 @@ My central engineering question is simple: **what must independently be true bef
 | Public work | What it demonstrates | Evidence status |
 | --- | --- | --- |
 | **[Consequence-Bounded AI Control (CBAC)](docs/CBAC_Public_Research_Note_2026.md)** | A falsifiable systems-control hypothesis about containing the consequences of unsafe agent behaviour | Research hypothesis; external validation pending |
-| **[Synthetic AI control demonstration](examples/cbac_synthetic_demo/README.md)** | Runnable Python example with testable allowlist, mock authority and completion checks | 19 locally passing synthetic unit tests; **not a production control** |
+| **[Public adversarial evaluation — V1](docs/SYNTHETIC_CONTROL_EVALUATION_V1.md)** | A reproducible 512-case synthetic input grid, explicit test contract, and three demonstrated limits | 27 locally passing unit tests; 0 *in-grid* expectation mismatches; **not independent security validation** |
+| **[Synthetic AI control demonstration](examples/cbac_synthetic_demo/README.md)** | Runnable Python example with mocked authority and completion checks | Public in-memory teaching example; no real authentication or effects |
 | **[NEOM: How the Bindu Method Could Make NEOM Work](docs/NEOM_Bindu_Public_Case_Study_2026.md)** | Infrastructure economics, capital staging, investment gates and downside modelling | Independent illustrative analysis; not an official forecast |
 | **[Public evidence register](docs/PUBLIC_EVIDENCE_REGISTER.md)** | Clear separation of hypothesis, implementation, verification and unproven claims | Live public disclosure record |
 

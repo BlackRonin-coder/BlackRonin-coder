@@ -1,6 +1,6 @@
 # Public Evidence Register
 
-**Updated:** 8 October 2026
+**Updated:** 8 October 2026 — public mock evaluation V1 added
 
 This register prevents a public explanation, synthetic test or private engineering claim from silently becoming evidence of commercial deployment or independently validated safety.
 
@@ -10,6 +10,7 @@ This register prevents a public explanation, synthetic test or private engineeri
 | [NEOM Bindu case study](NEOM_Bindu_Public_Case_Study_2026.md) | Conditional scenario analysis | A modelled investment-sequencing alternative under stated assumptions | Actual NEOM earnings, adopted policy, commercial bankability |
 | [CBAC public research note](CBAC_Public_Research_Note_2026.md) | Falsifiable research hypothesis | Scope, problem, proposed failure criteria and evaluation plan | Tested frontier-model containment |
 | [Synthetic control code](../examples/cbac_synthetic_demo/README.md) | Public in-memory teaching demonstration | Its limited, test-defined behaviour in a mock environment | Authentic identity, authenticated provenance, complete mediation, private-system conformance, production safety |
+| [Synthetic finite-grid evaluation](SYNTHETIC_CONTROL_EVALUATION_V1.md) | Author-authored reproducible test protocol | 512 enumerated mock contexts, 27 tests and three openly reproduced example weaknesses | Independent adversarial review, statistical reliability or production-system assurance |
 
 
 ## Reproducing the published synthetic tests
@@ -19,6 +20,8 @@ The public, dependency-free Python unit tests can be run from the repository roo
 ```bash
 python3 -B -m unittest discover -s examples/cbac_synthetic_demo -p 'test_*.py' -v
 ```
+
+The 512-case evaluation can also be reproduced with python3 -B examples/cbac_synthetic_demo/public_evaluation.py. All claims are bounded by the [evaluation write-up](SYNTHETIC_CONTROL_EVALUATION_V1.md).
 
 The [public synthetic demo workflow](../.github/workflows/public-synthetic-demo.yml) also runs these tests and the in-memory example on GitHub-hosted Linux after relevant public code changes and pull requests. It has **read-only repository permissions**, does not access private repositories and is not a production security evaluation. Review actual workflow run results in [GitHub Actions](https://github.com/BlackRonin-coder/BlackRonin-coder/actions) rather than assuming a passing status.
 

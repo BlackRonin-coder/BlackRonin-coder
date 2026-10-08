@@ -38,3 +38,5 @@ jobs:
         run: python3 -B -m unittest discover -s examples/cbac_synthetic_demo -p 'test_*.py' -v
       - name: Exercise synthetic demonstration
         run: python3 -B examples/cbac_synthetic_demo/control_demo.py
+      - name: Reproduce fixed-grid evaluation and known limitations
+        run: python3 -B examples/cbac_synthetic_demo/public_evaluation.py
