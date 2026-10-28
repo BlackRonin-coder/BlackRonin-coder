@@ -22,6 +22,17 @@ My central engineering question is simple: **what must independently be true bef
 
 **Automated public example checks:** [GitHub Actions — synthetic control tests](.github/workflows/public-synthetic-demo.yml). Results are limited to the published mock example; see the [evidence register](docs/PUBLIC_EVIDENCE_REGISTER.md) for scope.
 
+## External engineering contributions — October 2026
+
+The following changes were submitted to maintainers of established public projects. Acceptance and merge status are determined by the upstream projects, not this profile.
+
+| Upstream contribution | Scope | Reproducible evidence |
+| --- | --- | --- |
+| **[Palo Alto Networks — Prisma AIRS integrations PR #72](https://github.com/PaloAltoNetworks/prisma-airs-integrations/pull/72)** | Corrected correlation-identifier documentation and added black-box request-contract tests for Codex security hooks | Four tests passed on Node.js and Bash; PowerShell not run locally; no claimed production vulnerability |
+| **[ServiceNow — AI Passport PR #1](https://github.com/ServiceNow/ai-passport/pull/1)** | Independently authored Go revocation-caller example for the public draft specification, with fail-closed HTTP handling | 74/74 caller cases and 57/57 executed HTTP cases passed; 17 HTTP cases skipped by the published runner; no production certification |
+
+Both contributions use public interfaces and synthetic data, without disclosing private Coal Tiger implementations. The **512-case evaluation above is a separate, fixed public synthetic grid**, not a claim about present private engineering scale or maturity.
+
 ## Engineering specialisms
 
 - **AI control and agent safety:** authorisation boundaries, tool-mediated actions and consequence containment.
@@ -30,7 +41,7 @@ My central engineering question is simple: **what must independently be true bef
 - **Systems engineering:** constraint diagnosis, failure modes, dependency analysis and evidence-led design.
 - **Independent technical ownership:** architecture decisions, AI-assisted software development, testing, critical review and documented limitations.
 
-**Working environment:** Python, Bash, Git/GitHub, structured JSON contracts, test harnesses and safety-critical engineering practice.
+**Working environment:** Python, Go, Bash, Node.js, Git/GitHub, structured JSON contracts, test harnesses and safety-critical engineering practice. Public contributions above demonstrate bounded Go and Node.js work.
 
 ## Current private engineering
 
