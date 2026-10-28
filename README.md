@@ -32,8 +32,9 @@ The following changes were submitted to maintainers of established public projec
 | **[ServiceNow — AI Passport PR #1](https://github.com/ServiceNow/ai-passport/pull/1)** | Independently authored Go revocation-caller example for the public draft specification, with fail-closed HTTP handling | 74/74 caller cases and 57/57 executed HTTP cases passed; 17 HTTP cases skipped by the published runner; no production certification |
 | **[OpenAI — Agents Python SDK issue #5441](https://github.com/openai/openai-agents-python/issues/5441#issuecomment-6477852452)** | Public source-path analysis of file-editing call ID propagation across approval planning and execution | Code inspection and targeted regression recommendations; no patch submitted or end-to-end test claimed |
 | **[Anthropic — Sandbox Runtime issue #783](https://github.com/anthropics/sandbox-runtime/issues/783#issuecomment-6478263746)** | Public source-grounded analysis of sandbox violation records, invocation attribution, policy updates and independent execution evidence | Four falsifiable synthetic test scenarios proposed; not a code patch or executed cross-platform evaluation |
+| **[Anthropic — Sandbox Runtime PR #789](https://github.com/anthropics/sandbox-runtime/pull/789)** | Fix and regression tests for incorrect zero/negative violation-tail retrieval; originally reproduced against upstream | 47 targeted tests passed, one Linux-only test skipped on macOS; TypeScript type checks and formatting passed; submitted, not yet merged |
 
-The two pull requests and two public source-inspection analyses use published interfaces and synthetic examples, without disclosing private Coal Tiger implementations. The **512-case evaluation above is a separate, fixed public synthetic grid**, not a claim about present private engineering scale or maturity.
+The three pull requests and two public source-inspection analyses use published interfaces and synthetic examples, without disclosing private Coal Tiger implementations. The **512-case evaluation above is a separate, fixed public synthetic grid**, not a claim about present private engineering scale or maturity.
 
 ## Engineering specialisms
 
