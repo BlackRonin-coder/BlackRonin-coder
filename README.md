@@ -1,14 +1,32 @@
-# Leon Maurice Browne
+<p align="center">
+  <img src="assets/coal-tiger-profile-hero.png" width="100%" alt="Coal Tiger Innovations: black panther, AI governance, runtime assurance and systems engineering" />
+</p>
 
-**Safety-Critical Systems & AI Control Engineer**
-**Agent Safety · Runtime Governance · Assurance Engineering · Systems Analysis**
-London, United Kingdom
+<div align="center">
 
-I combine **18+ years of safety-critical railway signalling engineering** with independent systems and software work focused on **controlling how capable AI systems act**, how their actions are evidenced, and how failures can be contained.
+### Leon Maurice Browne
 
-My central engineering question is simple: **what must independently be true before a system is permitted to produce a consequential effect?**
+**Founder, Coal Tiger Innovations · Safety-Critical Systems & AI Control Engineer**
+
+*Independent engineering · Applied AI governance · Verifiable, scope-limited research*
+
+[**Coal Tiger**](https://www.coaltigerltd.com/) · [**LinkedIn**](https://uk.linkedin.com/in/leon-maurice-browne-6438a71b0) · [**Public evidence register**](docs/PUBLIC_EVIDENCE_REGISTER.md)
+
+</div>
 
 ---
+
+I combine **18+ years of safety-critical railway signalling engineering** with independent AI systems work focused on **authorisation boundaries, operational assurance and evidence of system behaviour**.
+
+| Governance | Assurance | Engineering | Research |
+| :--- | :--- | :--- | :--- |
+| Control boundaries & consequence containment | Reproducible tests & stated limitations | Public integration contributions & failure analysis | Falsifiable hypotheses & synthetic demonstrations |
+
+> **Evidence discipline:** Public examples are intentionally scoped. A passing synthetic test is not an independent security certification, and an upstream contribution is not an accepted or merged feature unless the maintainer confirms it.
+
+---
+
+![Coal Tiger: public research and reproducible examples](assets/public-research.png)
 
 ## Featured public work
 
@@ -21,6 +39,8 @@ My central engineering question is simple: **what must independently be true bef
 | **[Public evidence register](docs/PUBLIC_EVIDENCE_REGISTER.md)** | Clear separation of hypothesis, implementation, verification and unproven claims | Live public disclosure record |
 
 **Automated public example checks:** [GitHub Actions — synthetic control tests](.github/workflows/public-synthetic-demo.yml). Results are limited to the published mock example; see the [evidence register](docs/PUBLIC_EVIDENCE_REGISTER.md) for scope.
+
+![Coal Tiger: external engineering contributions](assets/external-contributions.png)
 
 ## External engineering contributions — October 2026
 
@@ -36,6 +56,8 @@ The following changes were submitted to maintainers of established public projec
 | **[Anthropic — Sandbox Runtime PR #789](https://github.com/anthropics/sandbox-runtime/pull/789)** | Fix and regression tests for incorrect zero/negative violation-tail retrieval; originally reproduced against upstream | 47 targeted tests passed, one Linux-only test skipped on macOS; TypeScript type checks and formatting passed; submitted, not yet merged |
 
 The three pull requests and two public source-inspection analyses use published interfaces and synthetic examples, without disclosing private Coal Tiger implementations. The **512-case evaluation above is a separate, fixed public synthetic grid**, not a claim about present private engineering scale or maturity.
+
+![Coal Tiger: engineering capabilities](assets/engineering-capabilities.png)
 
 ## Engineering specialisms
 
