@@ -28,6 +28,8 @@ A public research overview exploring residuals, scientific uncertainty, alternat
 
 ### [**EXPLORE THE DARK MATTER SEARCH →**](https://github.com/BlackRonin-coder/hidden-cause-scaling)
 
+**NEW · 3 NOVEMBER 2026:** [Scientific research progress — real observational controls, uncertainty analysis and remaining falsification gates](https://github.com/BlackRonin-coder/hidden-cause-scaling/blob/main/docs/RESEARCH_PROGRESS_2026_11_03.md). *No independent theory validation or particle-detection claim.*
+
 **Also featured:** [NEOM — How the Bindu Method Could Make NEOM Work](docs/NEOM_Bindu_Public_Case_Study_2026.md)
 
 ---
