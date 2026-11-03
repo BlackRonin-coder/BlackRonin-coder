@@ -16,6 +16,20 @@
 
 ---
 
+## ✦ FEATURED RESEARCH — THE DARK MATTER SEARCH
+
+### A hidden-cause inference perspective
+
+**What can we reliably infer about an unseen cause from the measurable effects it leaves behind?**
+
+A public research overview exploring residuals, scientific uncertainty, alternative explanations and falsifiable predictions, with a reproducible synthetic example. **Exploratory research, not a claim of dark-matter detection.**
+
+### [**EXPLORE THE DARK MATTER SEARCH →**](https://github.com/BlackRonin-coder/hidden-cause-scaling)
+
+**Also featured:** [NEOM — How the Bindu Method Could Make NEOM Work](docs/NEOM_Bindu_Public_Case_Study_2026.md)
+
+---
+
 I combine **18+ years of safety-critical railway signalling engineering** with independent AI systems work focused on **authorisation boundaries, operational assurance and evidence of system behaviour**.
 
 | Governance | Assurance | Engineering | Research |
