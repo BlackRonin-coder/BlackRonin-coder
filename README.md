@@ -18,6 +18,8 @@
 
 ## ✦ FEATURED RESEARCH — THE DARK MATTER SEARCH
 
+[![The Dark Matter Search — approved black-hole and event-horizon research banner](https://raw.githubusercontent.com/BlackRonin-coder/hidden-cause-scaling/main/assets/dark-matter-event-horizon.webp)](https://github.com/BlackRonin-coder/hidden-cause-scaling)
+
 ### A hidden-cause inference perspective
 
 **What can we reliably infer about an unseen cause from the measurable effects it leaves behind?**
